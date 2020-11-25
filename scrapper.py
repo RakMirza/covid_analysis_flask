@@ -1,9 +1,5 @@
 import requests,json,sys,os
 
-
-import requests
-import json
-
 def scrape():
     data = []
     r = requests.get("https://data.cdc.gov/resource/hk9y-quqm.json?&state=US&$limit=240&$offset=0")
