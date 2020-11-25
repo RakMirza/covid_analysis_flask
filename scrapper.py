@@ -13,6 +13,6 @@ def scrape():
     return data
 
 if __name__ == "__main__":
-    f  = scrape()
-    print(f)
+    scrape()
+   
     
